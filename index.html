@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+
+		</style>
+		<script>
+		
+		</script>
+		<title>Solsystemet</title>
+	</head>
+	<body bgcolor="#A9A9A9">
+	<h1 align="center"> Hello world! </h1>
+
+	<p>
+	<font face="verdana" size="5" color="#0000CC"> Tellus </font>
+	</p>
+	<br/>
+	<img src="bilder/terra.png" title="Den vackra blå planeten Tellus"/>
+	<br/>
+	<br/>
+	<hr size=4>
+
+	<p>
+	<font face="verdana" size="5" color="#CC0000"> Mars </font>
+	</p>
+	<br/>
+	<br/>
+	<img src="bilder/mars.png" title="Den röda planeten mars"/>
+	<br/>
+	<hr size=4>
+
+	<p>
+	<font face="verdana" size="5" color="#999955"> Saturnus </font>
+	</p>
+	<br/>
+	<img src="bilder/saturn.png" title=""/>
+	<br/>
+	<br/>
+	<hr size=4>
+
+	<p>
+	<font face="verdana" size="5" color="#999955"> Venus </font>
+	</p>
+	<br/>
+	<img src="animeringar/venus-anim.gif" title=""/>
+	<br/>
+	<br/>
+	<hr size=4>
+	
+	<p>
+	<font face="verdana" size="4" color="#0000EE">
+	Olika länkar, ljud och video från youtube
+	</font>
+	</p>
+	<br/>
+	<font size="4">
+	<a href="ljud/nasa.mp3">Lyssna på en astronaut</a>
+	</font>
+	<p>
+	<audio controls controlsList="nodownload">
+	<source src="ljud/nasa.mp3" type="audio/mpeg" />
+	</audio>
+	</p>
+	<p>
+	<font size="4">
+	<a href="http://www.nasa.gov"> En länk till NASA </a>
+	</font>
+	</p>
+	<br/>
+	<hr size=4>
+	<p>
+	<font face="verdana" size="4" color="#EE0000">
+	En inbäddad film om mars från Youtube
+	</font>
+	</p>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/WiKf0E7iqno" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	<hr size=4>
+	<p>
+	<button onClick="document.getElementById('regn').play();">Det regnar alltid</button>
+	<input type="checkbox" id="showAudio" onclick="if(document.getElementById('showAudio').checked) { document.getElementById('regn').style.display = 'block';} else {document.getElementById('regn').style.display = 'none';}"> Show audio element
+	<br/>
+	<audio id="regn" controls controlsList="nodownload" style="display: none;">
+	<source src="ljud/regnar alltid.mp3" type="audio/mpeg" />
+	</audio>
+	<p>
+	<br/>
+	
+	</p>
+	</body>
+</html>
