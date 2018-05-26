@@ -1,0 +1,83 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="regnar_data" version="1.3.0" audacityversion="2.1.2" sel0="0.8618601275" sel1="0.8618601275" vpos="448" h="0.7447866419" zoom="401.4572538860" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags>
+		<tag name="ARTIST" value="Magnus Blom"/>
+	</tags>
+	<wavetrack name="ja" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="70394">
+				<waveblock start="0">
+					<simpleblockfile filename="e00001a6.au" len="70394" min="-0.375539" max="0.571852" rms="0.058565"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="2.06155199">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="69621">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000066.au" len="69621" min="-0.206007" max="0.246202" rms="0.040582"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="ja" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="70394">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000496.au" len="70394" min="-0.375409" max="0.571903" rms="0.058565"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="2.06155199">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="69621">
+				<waveblock start="0">
+					<simpleblockfile filename="e00002f9.au" len="69621" min="-0.206179" max="0.246386" rms="0.040582"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="alltid" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="0.562341" pan="0.0">
+		<waveclip offset="1.59623583">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="19995">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000585.au" len="19995" min="-0.546475" max="0.808587" rms="0.121515"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="alltid" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="0.562341" pan="0.0">
+		<waveclip offset="1.59623583">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="19995">
+				<waveblock start="0">
+					<simpleblockfile filename="e000052a.au" len="19995" min="-0.54658" max="0.80839" rms="0.121514"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Regn" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.778279" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="160010">
+				<waveblock start="0">
+					<simpleblockfile filename="e00006f6.au" len="160010" min="-0.124106" max="0.080999" rms="0.006809"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Regn" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.778279" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="160010">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000f5a.au" len="160010" min="-0.116472" max="0.167974" rms="0.00774"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>
